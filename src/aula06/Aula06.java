@@ -4,6 +4,9 @@
  */
 package aula06;
 
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
 /**
  *
  * @author CAMARGO
@@ -14,7 +17,8 @@ public class Aula06 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Exercicio.exercicio();
     }
     
 }

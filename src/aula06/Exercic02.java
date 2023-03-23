@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Exercicios;
+package aula06;
 
 /**
  *
  * @author CAMARGO
  */
-public class Exercicio02 {
+public class Exercic02 {
     public static void main(String[] args) {
         
         

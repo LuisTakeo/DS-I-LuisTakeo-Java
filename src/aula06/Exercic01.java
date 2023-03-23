@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Exercicios;
+package aula06;
 
 import java.awt.image.ImageObserver;
 import java.util.Arrays;
@@ -15,7 +15,7 @@ import java.util.function.Predicate;
  *
  * @author CAMARGO
  */
-public class Exercicio01 {
+public class Exercic01 {
     public static void main(String[] args) {
         
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5 ,6 , 7 , 8, 9, 10);
