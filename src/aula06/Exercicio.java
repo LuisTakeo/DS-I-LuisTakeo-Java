@@ -30,18 +30,22 @@ public class Exercicio {
         System.out.println("====================");
         somaPar = numerosPares.stream().reduce(Exercicio::soma).get();
         System.out.printf("Soma pares: %d \n", somaPar);
+        System.out.println("====================");
         
         
         numeros.stream()
                 .filter(n -> n % 2 != 0)
                 .forEachOrdered(numerosImpares::add);
         
-        System.out.println("\nNumeros Impares");
+        System.out.println("Numeros Impares");
         numerosImpares.stream().forEach(Exercicio::mostraTexto);
         
         somaImpar = numerosImpares.stream().reduce(Exercicio::soma).get();
         System.out.println("====================");
         System.out.printf("Soma impares: %d \n", somaImpar);
+        
+        System.out.println("====================");
+        System.out.println(Exercicio.mostraMaior(somaPar, somaImpar));
     }
     
     
@@ -66,6 +70,18 @@ public class Exercicio {
             System.out.printf(" %d  ", n);
         } else {
             System.out.printf("%d  ", n);
+        }
+    }
+    
+    static String mostraMaior(int n, int m){
+        if(n > m){
+            return String.format("O valor de %d é maior que %d",
+                    n, m);
+        }else if(m > n){
+            return String.format("O valor de %d é maior que %d",
+                    m, n);
+        }else{
+            return String.format("Os valores %d e %d são iguais", m, n);
         }
     }
 
